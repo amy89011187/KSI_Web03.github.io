@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: rgba(142, 186, 236,0.6);
+    font-family: Microsoft JhengHei, sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    line-height: 1.5;
+}
+/*第一個row框底*/
+#box1{
+    border-bottom: 10px rgb(117, 117, 209) solid;
+}
+
+/*map照片*/
+#mapimg{
+    position: relative;
+}
+
+.mapimg{
+    position: absolute;
+    left: 60%;
+    top: 98%;
+    width: 50%;
+
+}
+
+.p04{
+    background-color: rgb(238, 232, 232);
+    border-bottom: 1px rgb(187, 181, 181) solid;
+ 
+}
+
+#p05img{
+    position: relative;
+    border-top: 10px rgb(117, 117, 209) solid;
+    border-bottom: 10px rgb(117, 117, 209) solid;;
+}
+.p05 {
+    position:absolute;
+    width: 150px;
+    left: 3%;
+    top:50%;
+}
+
+
+@media screen and (max-width: 992px){
+    .mapimg{
+        width: 0;
+        top:0;
+        left: 0;
+    }
+    .p05 {
+        top:34%;
+    }
+
+}
+@media screen and (max-width: 770px){
+    .p05 {
+        top:26%;
+    }
+}
+@media screen and (max-width: 540px){
+    .p05 {
+        top:24%;
+        width: 32%;
+    }
+    
+}
+@media screen and (max-width: 415px){
+    .p05 {
+        top:18%;
+    }
+    
+}
+@media screen and (max-width: 372px){
+    .p05 {
+        top:15%;
+    }
+    
+}
